@@ -46,6 +46,13 @@ body {
     transition: transform 0.3s;
 }
 
+.gato-card img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .gato-card:focus, .gato-card:hover {
     transform: scale(1.02);
     outline: 3px solid #4a6fa5;
@@ -85,12 +92,6 @@ body {
 }
 
 .modal-img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-.gato-img {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
